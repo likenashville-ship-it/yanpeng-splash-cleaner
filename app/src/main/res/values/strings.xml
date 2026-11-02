@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">开屏净化</string>
+    <string name="accessibility_service_label">开屏净化自动跳过服务</string>
+    <string name="accessibility_service_summary">打开应用后，在限定时间内识别高置信度的开屏广告跳过控件。</string>
+    <string name="accessibility_service_description">本服务只在应用启动后的短时间内读取当前界面控件，用于点击“跳过”或明确的广告关闭按钮。数据仅在本机处理，不联网、不上传。</string>
+    <string name="last_skip_format">最近：%1$s · %2$s\n%3$s</string>
+</resources>

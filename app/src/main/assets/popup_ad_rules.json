@@ -1,0 +1,2064 @@
+{
+  "schema": 1,
+  "source": {
+    "repository": "local:/workspace/ltt-rules/AllRules.json + curated extras",
+    "file": "AllRules.json",
+    "commit": "local-enhance",
+    "commitDate": "2026-11-02T04:40:38+00:00",
+    "license": "MIT",
+    "sha256": "local",
+    "generatedAt": "2026-11-02T04:40:38+00:00"
+  },
+  "stats": {
+    "sourcePackageEntries": 328,
+    "sourcePopupRules": 795,
+    "repairedInnerEntries": 4,
+    "includedPackageHashes": 210,
+    "includedAdCloseRules": 324,
+    "extraCuratedRules": 39,
+    "excludedRules": 510
+  },
+  "packageRules": {
+    "-1835777899": [
+      {
+        "key": "-1835777899:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "-1835777899:2",
+        "trigger": "打开定位",
+        "action": "我知道了"
+      },
+      {
+        "key": "-1835777899:5",
+        "trigger": "打开通知",
+        "action": "iv_notice_close"
+      }
+    ],
+    "320552729": [
+      {
+        "key": "320552729:0",
+        "trigger": "立即更新",
+        "action": "稍后更新"
+      }
+    ],
+    "-330301876": [
+      {
+        "key": "-330301876:0",
+        "trigger": "native_ad_container",
+        "action": "topon_btn_close"
+      },
+      {
+        "key": "-330301876:1",
+        "trigger": "csj_ad_logo",
+        "action": "csj_btn_close"
+      }
+    ],
+    "2130042610": [
+      {
+        "key": "2130042610:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "361910168": [
+      {
+        "key": "361910168:2",
+        "trigger": "=关闭此条广告",
+        "action": "=关闭此条广告"
+      },
+      {
+        "key": "361910168:extra1",
+        "trigger": "=广告",
+        "action": "=更多"
+      }
+    ],
+    "239830085": [
+      {
+        "key": "239830085:0",
+        "trigger": "发现新版本",
+        "action": "稍后更新"
+      }
+    ],
+    "706813998": [
+      {
+        "key": "706813998:0",
+        "trigger": "打开推送通知",
+        "action": "暂不开启"
+      },
+      {
+        "key": "706813998:1",
+        "trigger": "开启通知权限",
+        "action": "取消"
+      },
+      {
+        "key": "706813998:2",
+        "trigger": "打开通知权限",
+        "action": "暂不开启"
+      },
+      {
+        "key": "706813998:11",
+        "trigger": "main_ad_broadside_img",
+        "action": "main_ad_broadside_close"
+      }
+    ],
+    "-2028968188": [
+      {
+        "key": "-2028968188:0",
+        "trigger": "iv_home_ad_bg",
+        "action": "iv_home_ad_close"
+      }
+    ],
+    "-103523392": [
+      {
+        "key": "-103523392:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "-103523392:2",
+        "trigger": "开启地理位置权限",
+        "action": "拒绝"
+      }
+    ],
+    "1695025949": [
+      {
+        "key": "1695025949:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "847156324": [
+      {
+        "key": "847156324:0",
+        "trigger": "=立即更新",
+        "action": "=取消"
+      },
+      {
+        "key": "847156324:1",
+        "trigger": "ad_time_view",
+        "action": "=关闭"
+      },
+      {
+        "key": "847156324:2",
+        "trigger": "关闭广告",
+        "action": "=不感兴趣"
+      },
+      {
+        "key": "847156324:3",
+        "trigger": "不感兴趣&举报广告",
+        "action": "=不感兴趣"
+      }
+    ],
+    "-558836051": [
+      {
+        "key": "-558836051:0",
+        "trigger": "reaper_ad_source_layout",
+        "action": "close"
+      }
+    ],
+    "-2114933808": [
+      {
+        "key": "-2114933808:0",
+        "trigger": "ksad_interstitial_native",
+        "action": "ksad_auto_close_btn"
+      },
+      {
+        "key": "-2114933808:1",
+        "trigger": "ad_area",
+        "action": "close_btn",
+        "delayMs": 5000
+      },
+      {
+        "key": "-2114933808:4",
+        "trigger": "广告",
+        "action": "跳过"
+      }
+    ],
+    "1893781697": [
+      {
+        "key": "1893781697:2",
+        "trigger": "img_floating_ad_cmb",
+        "action": "img_close_floating_ad_cmb"
+      }
+    ],
+    "342704719": [
+      {
+        "key": "342704719:0",
+        "trigger": "升级提醒",
+        "action": "稍后再说"
+      }
+    ],
+    "-1488821919": [
+      {
+        "key": "-1488821919:0",
+        "trigger": "打开通知",
+        "action": "iv_close"
+      }
+    ],
+    "-811421306": [
+      {
+        "key": "-811421306:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "-811421306:2",
+        "trigger": "打开&推送通知",
+        "action": "以后再说"
+      }
+    ],
+    "2053958218": [
+      {
+        "key": "2053958218:0",
+        "trigger": "允许&推送通知",
+        "action": "取消"
+      }
+    ],
+    "-895263099": [
+      {
+        "key": "-895263099:0",
+        "trigger": "更新提示",
+        "action": "取消"
+      }
+    ],
+    "1143986695": [
+      {
+        "key": "1143986695:0",
+        "trigger": "发现新版本",
+        "action": "tv_ignore_this_version"
+      },
+      {
+        "key": "1143986695:1",
+        "trigger": "开启系统日历的访问权限",
+        "action": "取消"
+      }
+    ],
+    "-796004189": [
+      {
+        "key": "-796004189:0",
+        "trigger": "想给你发送通知",
+        "action": "不允许"
+      }
+    ],
+    "-1053900032": [
+      {
+        "key": "-1053900032:0",
+        "trigger": "suite_completed_ads_container",
+        "action": "suite_completed_close_ad_button"
+      }
+    ],
+    "1875899872": [
+      {
+        "key": "1875899872:0",
+        "trigger": "开启定位权限",
+        "action": "home_close_img"
+      }
+    ],
+    "-557467920": [
+      {
+        "key": "-557467920:0",
+        "trigger": "开启消息通知",
+        "action": "取消"
+      }
+    ],
+    "-747700391": [
+      {
+        "key": "-747700391:1",
+        "trigger": "新用户福利仅一次",
+        "action": "放弃福利"
+      }
+    ],
+    "-189732215": [
+      {
+        "key": "-189732215:0",
+        "trigger": "banner_image",
+        "action": "image_close_banner"
+      }
+    ],
+    "502255059": [
+      {
+        "key": "502255059:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "2091464343": [
+      {
+        "key": "2091464343:0",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      },
+      {
+        "key": "2091464343:2",
+        "trigger": "开启推送通知",
+        "action": "取消"
+      },
+      {
+        "key": "2091464343:5",
+        "trigger": "ad_image",
+        "action": "close_btn"
+      }
+    ],
+    "991562021": [
+      {
+        "key": "991562021:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "1536737232": [
+      {
+        "key": "1536737232:1",
+        "trigger": "选择通知类型",
+        "action": "暂不开启"
+      },
+      {
+        "key": "1536737232:5",
+        "trigger": "不感兴趣&为何会看到此广告",
+        "action": "不感兴趣"
+      },
+      {
+        "key": "1536737232:8",
+        "trigger": "left_img_ad_tag",
+        "action": "close"
+      },
+      {
+        "key": "1536737232:10",
+        "trigger": "定位服务未开启",
+        "action": "以后再说"
+      },
+      {
+        "key": "1536737232:extra0",
+        "trigger": "使用您的位置信息",
+        "action": "以后再说"
+      },
+      {
+        "key": "1536737232:extra2",
+        "trigger": "给我们评分",
+        "action": "不了，谢谢"
+      }
+    ],
+    "1984799751": [
+      {
+        "key": "1984799751:2",
+        "trigger": "iltas_ad_layout",
+        "action": "closeAd"
+      }
+    ],
+    "1596265335": [
+      {
+        "key": "1596265335:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "1596265335:5",
+        "trigger": "ad_name_tv",
+        "action": "ad_close_iv"
+      }
+    ],
+    "1073158053": [
+      {
+        "key": "1073158053:0",
+        "trigger": "新版本",
+        "action": "取消"
+      }
+    ],
+    "1683280386": [
+      {
+        "key": "1683280386:1",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "-1960346768": [
+      {
+        "key": "-1960346768:0",
+        "trigger": "ad_content",
+        "action": "btnClose"
+      }
+    ],
+    "1272214412": [
+      {
+        "key": "1272214412:0",
+        "trigger": "想给您发送通知",
+        "action": "暂不"
+      }
+    ],
+    "-733096426": [
+      {
+        "key": "-733096426:0",
+        "trigger": "更新Telegram",
+        "action": "请稍后提醒我"
+      }
+    ],
+    "-1414602254": [
+      {
+        "key": "-1414602254:1",
+        "trigger": "朋友推荐",
+        "action": "close"
+      },
+      {
+        "key": "-1414602254:2",
+        "trigger": "朋友推荐",
+        "action": "不感兴趣"
+      },
+      {
+        "key": "-1414602254:3",
+        "trigger": "朋友推荐",
+        "action": "关闭"
+      },
+      {
+        "key": "-1414602254:4",
+        "trigger": "青少年模式",
+        "action": "关闭"
+      }
+    ],
+    "651433099": [
+      {
+        "key": "651433099:0",
+        "trigger": "发现新版本",
+        "action": "暂不更新"
+      },
+      {
+        "key": "651433099:1",
+        "trigger": "开启消息通知",
+        "action": "notice_dialog_cancel_iv"
+      },
+      {
+        "key": "651433099:2",
+        "trigger": "打开消息通知",
+        "action": "close"
+      },
+      {
+        "key": "651433099:3",
+        "trigger": "订阅微信通知",
+        "action": "cancel_iv"
+      }
+    ],
+    "-30728625": [
+      {
+        "key": "-30728625:1",
+        "trigger": "打开通知权限",
+        "action": "取消"
+      }
+    ],
+    "2078928257": [
+      {
+        "key": "2078928257:1",
+        "trigger": "打开通知权限",
+        "action": "取消"
+      }
+    ],
+    "1276497535": [
+      {
+        "key": "1276497535:0",
+        "trigger": "有新版本&升级",
+        "action": "暂不升级"
+      },
+      {
+        "key": "1276497535:extra0",
+        "trigger": "有新版本",
+        "action": "暂不升级"
+      },
+      {
+        "key": "1276497535:extra1",
+        "trigger": "立即升级",
+        "action": "暂不升级"
+      },
+      {
+        "key": "1276497535:extra2",
+        "trigger": "bar_close",
+        "action": "bar_close"
+      }
+    ],
+    "1799462192": [
+      {
+        "key": "1799462192:0",
+        "trigger": "ad_title",
+        "action": "ad_close_btn"
+      }
+    ],
+    "1366626055": [
+      {
+        "key": "1366626055:2",
+        "trigger": "七猫新人红包",
+        "action": "iv_close_bonus"
+      },
+      {
+        "key": "1366626055:6",
+        "trigger": "ad_privacy_view",
+        "action": "iv_ad_direct_close"
+      },
+      {
+        "key": "1366626055:7",
+        "trigger": "ll_ad_bottom_remind_group",
+        "action": "ad_direct_close"
+      }
+    ],
+    "-1544055932": [
+      {
+        "key": "-1544055932:0",
+        "trigger": "青少年守护模式",
+        "action": "我知道了"
+      }
+    ],
+    "-524269385": [
+      {
+        "key": "-524269385:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "229330387": [
+      {
+        "key": "229330387:0",
+        "trigger": "=开启推送通知",
+        "action": "以后再说"
+      },
+      {
+        "key": "229330387:2",
+        "trigger": "青少年模式",
+        "action": "=我知道了"
+      }
+    ],
+    "201325446": [
+      {
+        "key": "201325446:0",
+        "trigger": "打开消息推送通知",
+        "action": "ivCloseAlert"
+      },
+      {
+        "key": "201325446:6",
+        "trigger": "ivPromotion",
+        "action": "btnClose"
+      }
+    ],
+    "-527086868": [
+      {
+        "key": "-527086868:1",
+        "trigger": "打开系统通知",
+        "action": "iv_close"
+      }
+    ],
+    "-328022007": [
+      {
+        "key": "-328022007:0",
+        "trigger": "广告",
+        "action": "跳过"
+      },
+      {
+        "key": "-328022007:1",
+        "trigger": "main_ad_alert",
+        "action": "main_ad_alert_close"
+      }
+    ],
+    "1174097286": [
+      {
+        "key": "1174097286:1",
+        "trigger": "弹窗",
+        "action": "关闭按钮"
+      },
+      {
+        "key": "1174097286:2",
+        "trigger": "发现新版本",
+        "action": "取消"
+      },
+      {
+        "key": "1174097286:extra2",
+        "trigger": "icon_cart_egg_close",
+        "action": "icon_cart_egg_close"
+      }
+    ],
+    "2029054607": [
+      {
+        "key": "2029054607:0",
+        "trigger": "tt_splash_ad_logo",
+        "action": "tt_splash_skip_btn"
+      }
+    ],
+    "1519628819": [
+      {
+        "key": "1519628819:0",
+        "trigger": "tt_splash_ad_logo",
+        "action": "tt_splash_skip_btn"
+      }
+    ],
+    "313184810": [
+      {
+        "key": "313184810:0",
+        "trigger": "检测到更新",
+        "action": "以后再说"
+      },
+      {
+        "key": "313184810:1",
+        "trigger": "青少年模式",
+        "action": "关闭"
+      },
+      {
+        "key": "313184810:2",
+        "trigger": "朋友推荐",
+        "action": "close"
+      },
+      {
+        "key": "313184810:4",
+        "trigger": "开启朋友通知",
+        "action": "暂不"
+      },
+      {
+        "key": "313184810:7",
+        "trigger": "想访问你的通讯录",
+        "action": "拒绝"
+      },
+      {
+        "key": "313184810:extra1",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      },
+      {
+        "key": "313184810:extra4",
+        "trigger": "及时获得消息提醒",
+        "action": "暂不开启"
+      }
+    ],
+    "195210534": [
+      {
+        "key": "195210534:0",
+        "trigger": "升级版本",
+        "action": "关闭"
+      },
+      {
+        "key": "195210534:1",
+        "trigger": "收到一个现金红包",
+        "action": "关闭"
+      }
+    ],
+    "-1220851267": [
+      {
+        "key": "-1220851267:1",
+        "trigger": "授权地理位置权限",
+        "action": "btn_cancel"
+      }
+    ],
+    "125486076": [
+      {
+        "key": "125486076:0",
+        "trigger": "有新版本啦",
+        "action": "imageView_close"
+      }
+    ],
+    "-1991835185": [
+      {
+        "key": "-1991835185:0",
+        "trigger": "开启通知",
+        "action": "不允许"
+      },
+      {
+        "key": "-1991835185:1",
+        "trigger": "ad_image",
+        "action": "ad_close"
+      }
+    ],
+    "167193980": [
+      {
+        "key": "167193980:1",
+        "trigger": "定位服务授权",
+        "action": "取消"
+      }
+    ],
+    "-1239952740": [
+      {
+        "key": "-1239952740:0",
+        "trigger": "为什么不希望看到这条推广",
+        "action": "不感兴趣"
+      }
+    ],
+    "2138257400": [
+      {
+        "key": "2138257400:0",
+        "trigger": "打开消息通知",
+        "action": "close_icon"
+      }
+    ],
+    "1511151769": [
+      {
+        "key": "1511151769:0",
+        "trigger": "获取消息通知",
+        "action": "暂不开启"
+      }
+    ],
+    "-173873869": [
+      {
+        "key": "-173873869:2",
+        "trigger": "forum_ad_imageview",
+        "action": "iv_close_community_ad"
+      },
+      {
+        "key": "-173873869:3",
+        "trigger": "iv_recommend_ad_image",
+        "action": "iv_close_ad"
+      }
+    ],
+    "-2096096381": [
+      {
+        "key": "-2096096381:0",
+        "trigger": "pop_advertisement_content",
+        "action": "iv_close"
+      }
+    ],
+    "-1478231696": [
+      {
+        "key": "-1478231696:1",
+        "trigger": "打开系统通知",
+        "action": "bt_tip_close"
+      }
+    ],
+    "588474247": [
+      {
+        "key": "588474247:0",
+        "trigger": "更新",
+        "action": "取消"
+      }
+    ],
+    "-1206397310": [
+      {
+        "key": "-1206397310:0",
+        "trigger": "青少年模式",
+        "action": "=我知道了"
+      },
+      {
+        "key": "-1206397310:2",
+        "trigger": "layout_ad_layout",
+        "action": "native_ad_close"
+      },
+      {
+        "key": "-1206397310:3",
+        "trigger": "ad_flag_source_layout",
+        "action": "iv_close"
+      },
+      {
+        "key": "-1206397310:4",
+        "trigger": "native_ad_image",
+        "action": "native_ad_close"
+      },
+      {
+        "key": "-1206397310:5",
+        "trigger": "native_ad_title",
+        "action": "native_ad_close"
+      }
+    ],
+    "199342455": [
+      {
+        "key": "199342455:0",
+        "trigger": "开启推送通知",
+        "action": "iv_close"
+      }
+    ],
+    "-766051647": [
+      {
+        "key": "-766051647:0",
+        "trigger": "发现新版本",
+        "action": "放弃更新"
+      }
+    ],
+    "1600359417": [
+      {
+        "key": "1600359417:0",
+        "trigger": "新版本",
+        "action": "稍后更新"
+      }
+    ],
+    "992705457": [
+      {
+        "key": "992705457:1",
+        "trigger": "开启消息通知",
+        "action": "暂不开启"
+      }
+    ],
+    "-1869705199": [
+      {
+        "key": "-1869705199:1",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "-1567553486": [
+      {
+        "key": "-1567553486:2",
+        "trigger": "开启通知",
+        "action": "close"
+      }
+    ],
+    "818881643": [
+      {
+        "key": "818881643:0",
+        "trigger": "=广告",
+        "action": "跳过"
+      }
+    ],
+    "-243402277": [
+      {
+        "key": "-243402277:0",
+        "trigger": "iv_activities_banner",
+        "action": "iv_close"
+      }
+    ],
+    "991394745": [
+      {
+        "key": "991394745:0",
+        "trigger": "home_ad_dialog_pager",
+        "action": "iv_home_ad_close"
+      },
+      {
+        "key": "991394745:2",
+        "trigger": "开启消息通知",
+        "action": "close"
+      }
+    ],
+    "1091754941": [
+      {
+        "key": "1091754941:0",
+        "trigger": "新人专属福利",
+        "action": "iv_close"
+      },
+      {
+        "key": "1091754941:2",
+        "trigger": "开启推送通知",
+        "action": "iv_cancel"
+      }
+    ],
+    "-1652150487": [
+      {
+        "key": "-1652150487:0",
+        "trigger": "检测到更新",
+        "action": "以后再说"
+      },
+      {
+        "key": "-1652150487:1",
+        "trigger": "青少年模式",
+        "action": "关闭"
+      },
+      {
+        "key": "-1652150487:4",
+        "trigger": "授权通讯录",
+        "action": "拒绝"
+      },
+      {
+        "key": "-1652150487:6",
+        "trigger": "朋友推荐",
+        "action": "关闭"
+      }
+    ],
+    "-7542465": [
+      {
+        "key": "-7542465:0",
+        "trigger": "advert_creative_head_title_v3",
+        "action": "advert_creative_head_img_text_layout_close_btn_v3"
+      }
+    ],
+    "1062801388": [
+      {
+        "key": "1062801388:1",
+        "trigger": "iv_ad",
+        "action": "tv_close_ad"
+      }
+    ],
+    "652719697": [
+      {
+        "key": "652719697:0",
+        "trigger": "layoutOpenVip",
+        "action": "ivVipBannerClose"
+      }
+    ],
+    "1590102142": [
+      {
+        "key": "1590102142:1",
+        "trigger": "item_timeline_ad_sign",
+        "action": "关闭广告"
+      },
+      {
+        "key": "1590102142:2",
+        "trigger": "屏蔽信息流广告",
+        "action": "不感兴趣"
+      }
+    ],
+    "378881071": [
+      {
+        "key": "378881071:0",
+        "trigger": "懂车帝有更新啦",
+        "action": "以后再说"
+      }
+    ],
+    "1429484426": [
+      {
+        "key": "1429484426:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "648308836": [
+      {
+        "key": "648308836:0",
+        "trigger": "升级体验",
+        "action": "取消"
+      }
+    ],
+    "1488133239": [
+      {
+        "key": "1488133239:1",
+        "trigger": "签到成功",
+        "action": "close"
+      }
+    ],
+    "232580377": [
+      {
+        "key": "232580377:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "238075641": [
+      {
+        "key": "238075641:2",
+        "trigger": "不感兴趣&无法关闭&举报广告",
+        "action": "不感兴趣"
+      }
+    ],
+    "-662871885": [
+      {
+        "key": "-662871885:0",
+        "trigger": "更新提示",
+        "action": "取消"
+      }
+    ],
+    "947418797": [
+      {
+        "key": "947418797:0",
+        "trigger": "banner",
+        "action": "close_btn"
+      }
+    ],
+    "-54547863": [
+      {
+        "key": "-54547863:0",
+        "trigger": "显示通知",
+        "action": "取消授权"
+      }
+    ],
+    "1855462465": [
+      {
+        "key": "1855462465:0",
+        "trigger": "浮层内部图片",
+        "action": "浮层关闭按钮"
+      },
+      {
+        "key": "1855462465:2",
+        "trigger": "限时福利砸中你",
+        "action": "关闭按钮"
+      },
+      {
+        "key": "1855462465:extra2",
+        "trigger": "发现新版本",
+        "action": "取消"
+      }
+    ],
+    "1380298910": [
+      {
+        "key": "1380298910:0",
+        "trigger": "立即升级",
+        "action": "稍后再说"
+      }
+    ],
+    "-1717626045": [
+      {
+        "key": "-1717626045:1",
+        "trigger": "new_user_promotion_card",
+        "action": "icon_close_button"
+      }
+    ],
+    "-1447059102": [
+      {
+        "key": "-1447059102:1",
+        "trigger": "float_ad_img",
+        "action": "close_float_ad_img"
+      }
+    ],
+    "-1109425407": [
+      {
+        "key": "-1109425407:0",
+        "trigger": "发现新版本",
+        "action": "取消"
+      }
+    ],
+    "345365066": [
+      {
+        "key": "345365066:0",
+        "trigger": "新人签到礼",
+        "action": "close_btn"
+      },
+      {
+        "key": "345365066:2",
+        "trigger": "百度文库&评分",
+        "action": "score_close"
+      },
+      {
+        "key": "345365066:3",
+        "trigger": "开启消息通知",
+        "action": "close_btn"
+      }
+    ],
+    "-156204975": [
+      {
+        "key": "-156204975:2",
+        "trigger": "live_ad_dialog_image",
+        "action": "live_ad_dialog_close"
+      }
+    ],
+    "132785423": [
+      {
+        "key": "132785423:0",
+        "trigger": "发现新版本",
+        "action": "iv_cancel"
+      },
+      {
+        "key": "132785423:1",
+        "trigger": "开启&通知",
+        "action": "暂不开启"
+      },
+      {
+        "key": "132785423:2",
+        "trigger": "签到成功",
+        "action": "iv_close"
+      }
+    ],
+    "195266379": [
+      {
+        "key": "195266379:1",
+        "trigger": "开启推送通知，及时获取互动消息",
+        "action": "关闭"
+      },
+      {
+        "key": "195266379:extra1",
+        "trigger": "授权抖音朋友",
+        "action": "拒绝"
+      },
+      {
+        "key": "195266379:extra2",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      }
+    ],
+    "-2086095549": [
+      {
+        "key": "-2086095549:0",
+        "trigger": "版本更新",
+        "action": "取消"
+      }
+    ],
+    "-1079643320": [
+      {
+        "key": "-1079643320:1",
+        "trigger": "1分钟小调研",
+        "action": "iv_cancel"
+      },
+      {
+        "key": "-1079643320:extra0",
+        "trigger": "应用内更新权限",
+        "action": "buttonDefaultNegative"
+      },
+      {
+        "key": "-1079643320:extra2",
+        "trigger": "抽奖机会",
+        "action": "放弃福利"
+      }
+    ],
+    "473713875": [
+      {
+        "key": "473713875:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "473713875:extra1",
+        "trigger": "你可能感兴趣的人",
+        "action": "关闭"
+      }
+    ],
+    "497239884": [
+      {
+        "key": "497239884:0",
+        "trigger": "开启系统通知",
+        "action": "暂不开启"
+      }
+    ],
+    "1791072826": [
+      {
+        "key": "1791072826:1",
+        "trigger": "开启消息通知",
+        "action": "dialog_cancel"
+      },
+      {
+        "key": "1791072826:2",
+        "trigger": "banner_item_close",
+        "action": "banner_item_close"
+      }
+    ],
+    "325847140": [
+      {
+        "key": "325847140:0",
+        "trigger": "打开推送通知",
+        "action": "不允许"
+      }
+    ],
+    "-69877540": [
+      {
+        "key": "-69877540:1",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "-69877540:extra0",
+        "trigger": "新版本",
+        "action": "关闭"
+      },
+      {
+        "key": "-69877540:extra2",
+        "trigger": "感兴趣商品再试一件",
+        "action": "关闭弹窗"
+      }
+    ],
+    "-894368837": [
+      {
+        "key": "-894368837:10",
+        "trigger": "立即签到",
+        "action": "iv_close"
+      }
+    ],
+    "1197124177": [
+      {
+        "key": "1197124177:0",
+        "trigger": "tm_ad_page_tips_text",
+        "action": "tm_ad_page_tips_close"
+      }
+    ],
+    "884834226": [
+      {
+        "key": "884834226:0",
+        "trigger": "own_render_ad_icon",
+        "action": "close_render_ad"
+      }
+    ],
+    "1773314214": [
+      {
+        "key": "1773314214:0",
+        "trigger": "权限申请",
+        "action": "取消"
+      }
+    ],
+    "-807718193": [
+      {
+        "key": "-807718193:0",
+        "trigger": "rl_banner_close",
+        "action": "rl_banner_close"
+      }
+    ],
+    "-1531462240": [
+      {
+        "key": "-1531462240:0",
+        "trigger": "ad_icon",
+        "action": "closeAd"
+      }
+    ],
+    "300761806": [
+      {
+        "key": "300761806:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "1314748790": [
+      {
+        "key": "1314748790:1",
+        "trigger": "开启消息通知权限",
+        "action": "暂不开启"
+      },
+      {
+        "key": "1314748790:2",
+        "trigger": "index_drag_ad_iv",
+        "action": "index_drag_ad_iv_close"
+      },
+      {
+        "key": "1314748790:3",
+        "trigger": "banner",
+        "action": "close_banner"
+      }
+    ],
+    "1511326008": [
+      {
+        "key": "1511326008:0",
+        "trigger": "打开通知功能",
+        "action": "取消"
+      }
+    ],
+    "-920735187": [
+      {
+        "key": "-920735187:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "-920735187:7",
+        "trigger": "签到成功&获得&章节卡碎片",
+        "action": "fClose"
+      },
+      {
+        "key": "-920735187:8",
+        "trigger": "签到&天",
+        "action": "fClose"
+      }
+    ],
+    "1575109845": [
+      {
+        "key": "1575109845:0",
+        "trigger": "开启系统通知",
+        "action": "iv_close"
+      }
+    ],
+    "1539906291": [
+      {
+        "key": "1539906291:0",
+        "trigger": "tt_splash_ad_logo",
+        "action": "tt_splash_skip_btn"
+      }
+    ],
+    "-862766679": [
+      {
+        "key": "-862766679:1",
+        "trigger": "banner_image",
+        "action": "iv_close"
+      }
+    ],
+    "-2119218027": [
+      {
+        "key": "-2119218027:0",
+        "trigger": "设置最右消息通知类型",
+        "action": "暂不开启"
+      },
+      {
+        "key": "-2119218027:2",
+        "trigger": "+开启通知",
+        "action": "tips_close"
+      }
+    ],
+    "630814885": [
+      {
+        "key": "630814885:2",
+        "trigger": "开启消息通知",
+        "action": "iv_tip_close"
+      }
+    ],
+    "-759128068": [
+      {
+        "key": "-759128068:0",
+        "trigger": "发现新版本",
+        "action": "ivClose"
+      },
+      {
+        "key": "-759128068:1",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "-759128068:7",
+        "trigger": "新人限时福利",
+        "action": "ivClose"
+      }
+    ],
+    "-1692253156": [
+      {
+        "key": "-1692253156:0",
+        "trigger": "novelad_banner_ad_text",
+        "action": "novel_banner_ad_close"
+      }
+    ],
+    "1890818956": [
+      {
+        "key": "1890818956:0",
+        "trigger": "开启新消息通知",
+        "action": "取消"
+      }
+    ],
+    "-1637701853": [
+      {
+        "key": "-1637701853:0",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      },
+      {
+        "key": "-1637701853:2",
+        "trigger": "开启重要消息通知",
+        "action": "以后再说"
+      }
+    ],
+    "-1979578047": [
+      {
+        "key": "-1979578047:0",
+        "trigger": "ad_title",
+        "action": "ad_close"
+      }
+    ],
+    "891862624": [
+      {
+        "key": "891862624:2",
+        "trigger": "gdt_media_view",
+        "action": "gdt_btn_close"
+      }
+    ],
+    "1661249612": [
+      {
+        "key": "1661249612:0",
+        "trigger": "升级到最新版本",
+        "action": "img_close"
+      }
+    ],
+    "157540905": [
+      {
+        "key": "157540905:0",
+        "trigger": "tt_ad_logo",
+        "action": "tt_video_ad_close_layout"
+      },
+      {
+        "key": "157540905:2",
+        "trigger": "不感兴趣&举报广告",
+        "action": "不感兴趣"
+      }
+    ],
+    "-1623425929": [
+      {
+        "key": "-1623425929:0",
+        "trigger": "更新消息",
+        "action": "vision_btn_cancel"
+      }
+    ],
+    "1337821420": [
+      {
+        "key": "1337821420:0",
+        "trigger": "请开启消息通知",
+        "action": "暂不开启"
+      }
+    ],
+    "321803898": [
+      {
+        "key": "321803898:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "-1930986565": [
+      {
+        "key": "-1930986565:0",
+        "trigger": "新版本",
+        "action": "dialog_pic_close"
+      }
+    ],
+    "1185278458": [
+      {
+        "key": "1185278458:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "-1500338227": [
+      {
+        "key": "-1500338227:0",
+        "trigger": "tt_splash_ad_logo",
+        "action": "tt_splash_skip_btn"
+      }
+    ],
+    "-1969724936": [
+      {
+        "key": "-1969724936:0",
+        "trigger": "发现新版本",
+        "action": "取消"
+      }
+    ],
+    "1662102643": [
+      {
+        "key": "1662102643:0",
+        "trigger": "更新提示",
+        "action": "取消"
+      },
+      {
+        "key": "1662102643:1",
+        "trigger": "应用升级提醒",
+        "action": "取消"
+      }
+    ],
+    "1546297161": [
+      {
+        "key": "1546297161:0",
+        "trigger": "iv_right_bottom_ad",
+        "action": "iv_close"
+      }
+    ],
+    "1000776385": [
+      {
+        "key": "1000776385:2",
+        "trigger": "img_ad",
+        "action": "img_ad_close"
+      }
+    ],
+    "-921040269": [
+      {
+        "key": "-921040269:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "-1635328017": [
+      {
+        "key": "-1635328017:3",
+        "trigger": "关闭新特性弹窗",
+        "action": "关闭新特性弹窗"
+      }
+    ],
+    "-1703768290": [
+      {
+        "key": "-1703768290:2",
+        "trigger": "立即签到",
+        "action": "iv_close"
+      },
+      {
+        "key": "-1703768290:3",
+        "trigger": "开启系统通知",
+        "action": "close"
+      }
+    ],
+    "-744842507": [
+      {
+        "key": "-744842507:0",
+        "trigger": "ad_container",
+        "action": "btn_close"
+      }
+    ],
+    "-1731486278": [
+      {
+        "key": "-1731486278:0",
+        "trigger": "iv_ad",
+        "action": "close"
+      },
+      {
+        "key": "-1731486278:1",
+        "trigger": "邀您体验新版本",
+        "action": "残忍拒绝"
+      }
+    ],
+    "-103532384": [
+      {
+        "key": "-103532384:0",
+        "trigger": "允许&发送通知",
+        "action": "以后再说"
+      }
+    ],
+    "-1357050264": [
+      {
+        "key": "-1357050264:0",
+        "trigger": "定位服务&开启",
+        "action": "关闭"
+      }
+    ],
+    "-918490570": [
+      {
+        "key": "-918490570:1",
+        "trigger": "广告弹窗",
+        "action": "关闭弹窗"
+      },
+      {
+        "key": "-918490570:2",
+        "trigger": "共享&广告标识",
+        "action": "不允许"
+      },
+      {
+        "key": "-918490570:3",
+        "trigger": "开启通知提醒",
+        "action": "im_feed_tip_close"
+      }
+    ],
+    "-191341086": [
+      {
+        "key": "-191341086:0",
+        "trigger": "有新版本",
+        "action": "暂不升级"
+      },
+      {
+        "key": "-191341086:extra1",
+        "trigger": "以后再说",
+        "action": "以后再说"
+      }
+    ],
+    "1516206044": [
+      {
+        "key": "1516206044:1",
+        "trigger": "允许地理位置权限",
+        "action": "不允许"
+      }
+    ],
+    "-30315083": [
+      {
+        "key": "-30315083:0",
+        "trigger": "有新版本",
+        "action": "取消"
+      }
+    ],
+    "744792033": [
+      {
+        "key": "744792033:1",
+        "trigger": "yellow_banner_close",
+        "action": "yellow_banner_close"
+      }
+    ],
+    "-530247198": [
+      {
+        "key": "-530247198:1",
+        "trigger": "gdt_ad_custom_count_down",
+        "action": "close_button"
+      }
+    ],
+    "515982662": [
+      {
+        "key": "515982662:0",
+        "trigger": "开启定位权限",
+        "action": "locate_iv_close"
+      }
+    ],
+    "1966418623": [
+      {
+        "key": "1966418623:0",
+        "trigger": "发现新版本",
+        "action": "暂不升级"
+      }
+    ],
+    "2037736697": [
+      {
+        "key": "2037736697:0",
+        "trigger": "ad_container",
+        "action": "splash_ad_skip"
+      }
+    ],
+    "-1898417322": [
+      {
+        "key": "-1898417322:0",
+        "trigger": "single_banner",
+        "action": "close"
+      },
+      {
+        "key": "-1898417322:1",
+        "trigger": "=广告",
+        "action": "closeGray"
+      }
+    ],
+    "-103524794": [
+      {
+        "key": "-103524794:1",
+        "trigger": "需要通知权限",
+        "action": "取消"
+      }
+    ],
+    "-2002547408": [
+      {
+        "key": "-2002547408:1",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "2056863498": [
+      {
+        "key": "2056863498:0",
+        "trigger": "iv_content_ad",
+        "action": "iv_close_tableScreenAd"
+      },
+      {
+        "key": "2056863498:1",
+        "trigger": "iv_ad",
+        "action": "iv_close"
+      }
+    ],
+    "914144235": [
+      {
+        "key": "914144235:2",
+        "trigger": "开启消息通知",
+        "action": "暂不开启"
+      }
+    ],
+    "-1865688240": [
+      {
+        "key": "-1865688240:0",
+        "trigger": "view_ad_title",
+        "action": "view_ad_close"
+      }
+    ],
+    "-198019159": [
+      {
+        "key": "-198019159:1",
+        "trigger": "item_ad_title",
+        "action": "item_ad_close"
+      }
+    ],
+    "-1215205363": [
+      {
+        "key": "-1215205363:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "1254578009": [
+      {
+        "key": "1254578009:0",
+        "trigger": "立即升级",
+        "action": "iv_close"
+      },
+      {
+        "key": "1254578009:1",
+        "trigger": "版本升级",
+        "action": "取消"
+      }
+    ],
+    "1085732649": [
+      {
+        "key": "1085732649:0",
+        "trigger": "开启通知",
+        "action": "close_btn"
+      },
+      {
+        "key": "1085732649:3",
+        "trigger": "关闭广告",
+        "action": "不感兴趣"
+      }
+    ],
+    "1744979357": [
+      {
+        "key": "1744979357:1",
+        "trigger": "打开社区消息通知",
+        "action": "iv_message_close"
+      }
+    ],
+    "-532693094": [
+      {
+        "key": "-532693094:0",
+        "trigger": "=更新",
+        "action": "=取消"
+      }
+    ],
+    "1937929252": [
+      {
+        "key": "1937929252:2",
+        "trigger": "开启消息通知",
+        "action": "close"
+      },
+      {
+        "key": "1937929252:3",
+        "trigger": "打开消息通知",
+        "action": "close_im"
+      }
+    ],
+    "-874484145": [
+      {
+        "key": "-874484145:1",
+        "trigger": "打开推送通知",
+        "action": "iv_close_notification_alert"
+      }
+    ],
+    "-1161217159": [
+      {
+        "key": "-1161217159:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "-1161217159:2",
+        "trigger": "打开通知",
+        "action": "iv_close"
+      }
+    ],
+    "641733616": [
+      {
+        "key": "641733616:1",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "641733616:4",
+        "trigger": "定位权限",
+        "action": "拒绝"
+      }
+    ],
+    "1144086404": [
+      {
+        "key": "1144086404:1",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "1557402977": [
+      {
+        "key": "1557402977:0",
+        "trigger": "开启消息通知权限",
+        "action": "取消"
+      }
+    ],
+    "1994036591": [
+      {
+        "key": "1994036591:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "1994036591:extra1",
+        "trigger": "发现新版本",
+        "action": "取消"
+      },
+      {
+        "key": "1994036591:extra2",
+        "trigger": "立即更新",
+        "action": "以后再说"
+      }
+    ],
+    "-2092209424": [
+      {
+        "key": "-2092209424:1",
+        "trigger": "开启消息推送通知",
+        "action": "close_img"
+      }
+    ],
+    "-1346391036": [
+      {
+        "key": "-1346391036:1",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "2049668591": [
+      {
+        "key": "2049668591:1",
+        "trigger": "推荐广告",
+        "action": "关闭"
+      }
+    ],
+    "1651531703": [
+      {
+        "key": "1651531703:3",
+        "trigger": "开通消息通知",
+        "action": "iv_close"
+      },
+      {
+        "key": "1651531703:4",
+        "trigger": "签到成功",
+        "action": "iv_close"
+      },
+      {
+        "key": "1651531703:5",
+        "trigger": "image_ad",
+        "action": "iv_close"
+      }
+    ],
+    "-2145732654": [
+      {
+        "key": "-2145732654:0",
+        "trigger": "home_ad_image",
+        "action": "home_ad_close"
+      }
+    ],
+    "886316827": [
+      {
+        "key": "886316827:0",
+        "trigger": "发现新版本",
+        "action": "cancel"
+      },
+      {
+        "key": "886316827:1",
+        "trigger": "开启推送通知",
+        "action": "取消"
+      }
+    ],
+    "2138010815": [
+      {
+        "key": "2138010815:0",
+        "trigger": "青少年守护模式",
+        "action": "我知道了"
+      }
+    ],
+    "-1839413884": [
+      {
+        "key": "-1839413884:0",
+        "trigger": "interact_ad_root",
+        "action": "iv_close"
+      }
+    ],
+    "-1892077856": [
+      {
+        "key": "-1892077856:0",
+        "trigger": "检测到新版本",
+        "action": "取消"
+      },
+      {
+        "key": "-1892077856:1",
+        "trigger": "banner_ad",
+        "action": "iv_ad_close"
+      }
+    ],
+    "1827421494": [
+      {
+        "key": "1827421494:0",
+        "trigger": "iv_ad_img",
+        "action": "iv_close"
+      }
+    ],
+    "1335515207": [
+      {
+        "key": "1335515207:0",
+        "trigger": "开启消息通知",
+        "action": "icft_close"
+      },
+      {
+        "key": "1335515207:extra1",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      }
+    ],
+    "1238325805": [
+      {
+        "key": "1238325805:0",
+        "trigger": "发现新版本",
+        "action": "btn_dismiss"
+      },
+      {
+        "key": "1238325805:1",
+        "trigger": "青少年模式",
+        "action": "iv_close"
+      }
+    ],
+    "265439280": [
+      {
+        "key": "265439280:1",
+        "trigger": "打开通知",
+        "action": "取消"
+      }
+    ],
+    "-1367717479": [
+      {
+        "key": "-1367717479:0",
+        "trigger": "开启通知",
+        "action": "close_tip_btn"
+      }
+    ],
+    "-629891177": [
+      {
+        "key": "-629891177:0",
+        "trigger": "开启位置权限",
+        "action": "取消"
+      }
+    ],
+    "978047406": [
+      {
+        "key": "978047406:0",
+        "trigger": "+开启定位",
+        "action": "qmapapi_guide_close"
+      }
+    ],
+    "-248012079": [
+      {
+        "key": "-248012079:1",
+        "trigger": "开启通知",
+        "action": "iv_close"
+      }
+    ],
+    "-396646979": [
+      {
+        "key": "-396646979:1",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "-506597855": [
+      {
+        "key": "-506597855:0",
+        "trigger": "版本更新",
+        "action": "取消"
+      }
+    ],
+    "1305029671": [
+      {
+        "key": "1305029671:0",
+        "trigger": "版本更新",
+        "action": "关闭"
+      },
+      {
+        "key": "1305029671:1",
+        "trigger": "签到成功",
+        "action": "关闭"
+      }
+    ],
+    "-1846921724": [
+      {
+        "key": "-1846921724:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "1076661718": [
+      {
+        "key": "1076661718:0",
+        "trigger": "版本更新",
+        "action": "暂不更新"
+      }
+    ],
+    "555434215": [
+      {
+        "key": "555434215:1",
+        "trigger": "权限申请说明",
+        "action": "我知道了"
+      }
+    ],
+    "-1048697214": [
+      {
+        "key": "-1048697214:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      }
+    ],
+    "1358411530": [
+      {
+        "key": "1358411530:0",
+        "trigger": "青少年模式",
+        "action": "我知道了"
+      },
+      {
+        "key": "1358411530:1",
+        "trigger": "新人福利",
+        "action": "close"
+      }
+    ],
+    "1309104121": [
+      {
+        "key": "1309104121:0",
+        "trigger": "立即升级",
+        "action": "关闭"
+      }
+    ],
+    "-34617839": [
+      {
+        "key": "-34617839:0",
+        "trigger": "开启定位权限",
+        "action": "img_close"
+      }
+    ],
+    "841170930": [
+      {
+        "key": "841170930:extra0",
+        "trigger": "iv_suspend",
+        "action": "iv_page_suspend_close"
+      },
+      {
+        "key": "841170930:extra1",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      }
+    ],
+    "-1709882794": [
+      {
+        "key": "-1709882794:extra0",
+        "trigger": "update_title",
+        "action": "btn_close"
+      },
+      {
+        "key": "-1709882794:extra1",
+        "trigger": "popContentImg",
+        "action": "popCloseBtn"
+      },
+      {
+        "key": "-1709882794:extra2",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      }
+    ],
+    "1765779203": [
+      {
+        "key": "1765779203:extra0",
+        "trigger": "red_packet_content",
+        "action": "red_packet_close"
+      },
+      {
+        "key": "1765779203:extra1",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      }
+    ],
+    "1979515232": [
+      {
+        "key": "1979515232:extra0",
+        "trigger": "updateVersionTitle",
+        "action": "md_dialog_cm_close_btn"
+      },
+      {
+        "key": "1979515232:extra1",
+        "trigger": "访问您的位置",
+        "action": "取消"
+      }
+    ],
+    "277863260": [
+      {
+        "key": "277863260:extra0",
+        "trigger": "立即更新",
+        "action": "以后再说"
+      },
+      {
+        "key": "277863260:extra1",
+        "trigger": "发现新版本",
+        "action": "取消"
+      }
+    ],
+    "560468770": [
+      {
+        "key": "560468770:extra0",
+        "trigger": "openAlertText",
+        "action": "btn_close_update_setting"
+      },
+      {
+        "key": "560468770:extra1",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      }
+    ],
+    "1659293491": [
+      {
+        "key": "1659293491:extra0",
+        "trigger": "reminder_push_guide_tv",
+        "action": "reminder_push_guide_close"
+      },
+      {
+        "key": "1659293491:extra1",
+        "trigger": "你可能感兴趣的人",
+        "action": "关闭"
+      },
+      {
+        "key": "1659293491:extra2",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      }
+    ],
+    "-1864872766": [
+      {
+        "key": "-1864872766:extra0",
+        "trigger": "=logo",
+        "action": "=close"
+      },
+      {
+        "key": "-1864872766:extra1",
+        "trigger": "发现新版本",
+        "action": "以后再说"
+      }
+    ]
+  }
+}
